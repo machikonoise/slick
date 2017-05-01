@@ -24,6 +24,7 @@
     } else {
         factory(jQuery);
     }
+    //test
 
 }(function($) {
     'use strict';
