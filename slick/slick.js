@@ -17,16 +17,16 @@
 /* global window, document, define, jQuery, setInterval, clearInterval */
 ;(function(factory) {
     'use strict';
-    if(typeof jQuery !== 'undefined') {
-        factory(jQuery);
-    } else if (typeof define === 'function' && define.amd) {
-        define(['jquery'], factory);
-    } else if (typeof exports !== 'undefined') {
-        module.exports = factory(require('jquery'));
-    } else {
-        factory(jQuery);
-    }
-
+    // if(typeof jQuery !== 'undefined') {
+    //     factory(jQuery);
+    // } else if (typeof define === 'function' && define.amd) {
+    //     define(['jquery'], factory);
+    // } else if (typeof exports !== 'undefined') {
+    //     module.exports = factory(require('jquery'));
+    // } else {
+    //     factory(jQuery);
+    // }
+    factory(jQuery);
 }(function($) {
     'use strict';
     var Slick = window.Slick || {};
